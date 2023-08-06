@@ -14,7 +14,7 @@ and greatest distance from the negative-ideal solution.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Topsis-Mayank-102016012.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Topsis-Drishti-102016102.
 
 ```
 >> pip install Topsis-Drishti-102016102
