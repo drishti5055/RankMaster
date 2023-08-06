@@ -1,0 +1,111 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+/* Body styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Satoshi", Arial, Helvetica, sans-serif;
+  color: #333; /* Text color */
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Navigation styles */
+nav {
+  text-align: center;
+  background-color: #003459; /* Dark blue background */
+  padding: 1em 0;
+}
+
+.heading {
+  font-size: 3rem; /* Larger heading font size */
+  margin: 0.5em 0;
+  color: #fff; /* White heading color */
+}
+
+.by {
+  font-size: 1.2rem;
+  margin: 0.2em 0;
+  color: #eee; /* Light gray author color */
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.error {
+  margin-bottom: 2em;
+  background-color: #d32f2f; /* Dark red background */
+  border: 2px solid #b71c1c; /* Dark red border */
+  border-radius: 8px;
+  padding: 1.2em;
+  color: #fff; /* White error text color */
+}
+
+.box {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+  font-size: 1.4rem; /* Larger form input font size */
+  margin-bottom: 1em;
+}
+
+input {
+  background-color: #fff;
+  border: 2px solid #ccc; /* Light gray border */
+  padding: 0.8em;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #004b96; /* Dark blue background */
+  padding: 1em;
+  border: none;
+  color: #fff; /* White button text color */
+  border-radius: 6px;
+  font-size: 1.4rem; /* Larger button font size */
+  grid-column: 1 / span 2;
+  margin-top: 1em;
+  transition: background-color 0.2s ease; /* Add a smooth transition effect */
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #003459; /* Darker blue on hover */
+}
+
+/* table styles */
+table {
+  border: 2px solid #ccc; /* Light gray border */
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2em;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+}
+
+thead {
+  background-color: #004b96; /* Dark blue header background */
+  color: #fff; /* White header text color */
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
